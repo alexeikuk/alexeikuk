@@ -9,6 +9,16 @@
     --color-8: #ffffff;
     --color-9: #ffffff;
 }
+.row {
+    gap: 24px;
+    justify-content: center;
+}
+@media (min-width: 768px) {
+    .skill-col {
+        flex: 0 0 calc(50% - 12px) !important;
+        max-width: calc(50% - 12px) !important;
+    }
+}
 .logo{
      background-color:var(--color-2);
      padding: 10px;
@@ -34,4 +44,5 @@
     background-color: var(--color-3);
     border: solid var(--color-4);
     border-radius: 20px;
+
 }
