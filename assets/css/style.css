@@ -31,11 +31,13 @@
 }
 .b-1{
     background-color: var(--color-1);
-    height: 95vh;
+    height: 65vh;
     padding: 0px 400px;
     color: 	var(--color-2);
+    border-radius: 35px;
 }
 .b-2{
+    margin-top: 60px;
     padding: 0px 100px;
     font-size: 45px;
     font-weight: 300;
@@ -44,5 +46,21 @@
     background-color: var(--color-3);
     border: solid var(--color-4);
     border-radius: 20px;
-
+}
+.b-3 {
+    margin-top: 60px;
+    background: var(--color-1);
+    padding: 40px 0 35px;
+    color: var(--color-2);
+    border-radius: 35px;
+    overflow: hidden;
+}
+.b-3 h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+@media (max-width: 768px) {
+    .b-3 { padding: 30px 0 25px; border-radius: 25px; }
+    .b-3 h2 { font-size: 26px; }
 }

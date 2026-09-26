@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
 
     <title>Document</title>
 </head>
@@ -25,7 +27,7 @@
                 <a class="nav-link" href="#">Навыки</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Проекты</a>
+                <a class="nav-link" href="#projects">Проекты</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">Контакты</a>
@@ -38,8 +40,11 @@
             </div>
         </div>
     </nav>
-    <div class="b-1"></div>
-    <div class="b-2  container-md">
+    <div class="b-1 container-xxl mt-5 text-center d-flex flex-column justify-content-center align-items-center">
+        <h1>Добро пожаловать!</h1>
+        <h3>Я Алексей</h3>
+    </div>
+    <div class="b-2 container-md">
         <div class="text-center">
         <h2>Мои навыки</h2>
     </div>
@@ -53,6 +58,42 @@
     <div class="col-12 col-md-6 skill-col" >skill 6</div>
 </div>
     </div>
+    <div id="projects" class="b-3 container-xxl mt-5 text-center">
+        <h2>Мои проекты</h2>
+        <div class="swiper b-3-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="aspect-ratio: 16/9; background: linear-gradient(135deg, #059669, #10b981);">
+                    <span class="slide-badge">Проект 1</span>
+                    <span class="slide-title">Проект 1</span>
+                </div>
+                <div class="swiper-slide" style="aspect-ratio: 9/16; background: linear-gradient(135deg, #2563eb, #60a5fa);">
+                    <span class="slide-badge">Проект 2</span>
+                    <span class="slide-title">Проект 2</span>
+                </div>
+                <div class="swiper-slide" style="aspect-ratio: 1/1; background: linear-gradient(135deg, #7c3aed, #a78bfa);">
+                    <span class="slide-badge">Проект 3</span>
+                    <span class="slide-title">Проект 3</span>
+                </div>
+                <div class="swiper-slide" style="aspect-ratio: 4/3; background: linear-gradient(135deg, #d97706, #fbbf24);">
+                    <span class="slide-badge">Проект 4</span>
+                    <span class="slide-title">Проект 4</span>
+                </div>
+                <div class="swiper-slide" style="aspect-ratio: 16/9; background: linear-gradient(135deg, #0f172a, #334155);">
+                    <span class="slide-badge">Проект 5</span>
+                    <span class="slide-title">Проект 5</span>
+                </div>
+                <div class="swiper-slide" style="aspect-ratio: 9/16; background: linear-gradient(135deg, #db2777, #f472b6);">
+                    <span class="slide-badge">Проект 6</span>
+                    <span class="slide-title">Проект 6</span>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
     <script src="bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/slider.js"></script>
 </body>
 </html>
