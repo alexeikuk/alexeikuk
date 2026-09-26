@@ -1,10 +1,10 @@
 :root{
-    --color-1: #dbffa9;
-    --color-2: #aff652;
-    --color-3: #effaff; /* для текста и белого фона*/
-    --color-4: #ffffff;
-    --color-5: #ffffff;
-    --color-6: #ffffff;
+    --color-1: #ecfdf5;
+    --color-2: #059669;
+    --color-3: #ffffff;
+    --color-4: #d1fae5;
+    --color-5: #0f172a;
+    --color-6: #64748b;
     --color-7: #ffffff;
     --color-8: #ffffff;
     --color-9: #ffffff;
@@ -32,6 +32,6 @@
 }
 .skill-col{
     background-color: var(--color-3);
-    border: solid #c9dae2;
+    border: solid var(--color-4);
     border-radius: 20px;
 }
