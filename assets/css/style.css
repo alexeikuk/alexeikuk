@@ -68,4 +68,13 @@
     background-color: var(--color-4);
     margin-top: auto;
     color: var(--color-2);
+    border-radius: 20px;
+}
+.card{
+    border: 0px;
+}
+.block-light{
+    background-color: var(--color-1);
+    color: var(--color-2);
+    border-radius: 15px;
 }
