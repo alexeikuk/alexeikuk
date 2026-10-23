@@ -1,4 +1,8 @@
-:root{
+@font-face {
+    font-family: 'rostov';
+    src: url('../font/ofont.ru_Rostov.ttf');
+}
+    :root{
     --color-1: #ecfdf5;
     --color-2: #059669;
     --color-3: #ffffff;
@@ -35,6 +39,7 @@
     padding: 0px 400px;
     color: 	var(--color-2);
     border-radius: 35px;
+    font-family: rostov;
 }
 .b1-2{
     background-color: var(--color-1);
@@ -42,21 +47,25 @@
     margin-top: 30px;
     color: 	var(--color-2);
     border-radius: 35px;
+    font-family: rostov;
 }
 .who-i{
     margin-top: 20px;
     color: var(--color-2);
+    font-family: rostov;
 }
 .b-2{
     margin-top: 60px;
     padding: 0px 100px;
     font-size: 45px;
     font-weight: 300;
+    font-family: rostov;
 }
 .skill-col{
     background-color: var(--color-3);
     border: solid var(--color-4);
     border-radius: 20px;
+    font-family: rostov;
 }
 .b-3 {
     margin-top: 60px;
@@ -65,11 +74,13 @@
     color: var(--color-2);
     border-radius: 35px;
     overflow: hidden;
+    font-family: rostov;
 }
 .b-3 h2 {
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 8px;
+    font-family: rostov;
 }
 @media (max-width: 768px) {
     .b-3 { padding: 30px 0 25px; border-radius: 25px; }
@@ -80,6 +91,7 @@
     margin-top: auto;
     color: var(--color-2);
     border-radius: 20px;
+    font-family: rostov;
 }
 .card{
     border: 0px;
@@ -88,4 +100,5 @@
     background-color: var(--color-1);
     color: var(--color-2);
     border-radius: 15px;
+    font-family: rostov;
 }
