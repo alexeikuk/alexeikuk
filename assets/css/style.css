@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'rostov';
-    src: url('../font/ofont.ru_Rostov.ttf');
+    src: url('../font/CrazyV1-Regular.ttf');
 }
     :root{
     --color-1: #ecfdf5;
@@ -51,7 +51,6 @@
 }
 .who-i{
     margin-top: 20px;
-    color: var(--color-2);
     font-family: rostov;
 }
 .b-2{
