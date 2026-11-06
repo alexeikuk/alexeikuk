@@ -54,7 +54,7 @@
     font-family: rostov;
 }
 .b-2{
-    margin-top: 60px;
+    margin-top: 0px;
     padding: 0px 100px;
     font-size: 45px;
     font-weight: 300;
@@ -65,6 +65,7 @@
     border: solid var(--color-4);
     border-radius: 20px;
     font-family: rostov;
+    padding: 10px;
 }
 .b-3 {
     margin-top: 60px;
