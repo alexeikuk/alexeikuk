@@ -54,6 +54,7 @@
     color: 	var(--color-2);
     border-radius: 35px;
     font-family: rostov;
+    font-size: calc(1rem + 0.9vw) !important;
 }
 .who-i{
     margin-top: 20px;
