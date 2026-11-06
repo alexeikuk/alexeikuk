@@ -22,6 +22,14 @@
         flex: 0 0 calc(50% - 12px) !important;
         max-width: calc(50% - 12px) !important;
     }
+    .fs-2{
+        font-size: 4px;
+    }
+}
+@media (max-device-width: 768px) {
+    .fs-2{
+        font-size: calc(1rem + 0.9vw) !important;
+    }
 }
 .logo{
      background-color:var(--color-2);
@@ -42,7 +50,6 @@
 }
 .b1-2{
     background-color: var(--color-1);
-    height: 25vh;
     margin-top: 30px;
     color: 	var(--color-2);
     border-radius: 35px;
@@ -65,7 +72,9 @@
     font-family: rostov;
     padding: 10px;
     transition: transform 0.25s ease;
+    
 }
+
 .skill-col:hover{
     transform: translateY(-5px);
     
