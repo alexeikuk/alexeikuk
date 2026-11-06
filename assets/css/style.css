@@ -36,7 +36,6 @@
 .b-1{
     background-color: var(--color-1);
     height: 65vh;
-    padding: 0px 400px;
     color: 	var(--color-2);
     border-radius: 35px;
     font-family: rostov;
@@ -54,8 +53,7 @@
     font-family: rostov;
 }
 .b-2{
-    margin-top: 0px;
-    padding: 0px 100px;
+    margin-top: 30px;
     font-size: 45px;
     font-weight: 300;
     font-family: rostov;
