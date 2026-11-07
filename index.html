@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    
-    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=5">
+
+    <link rel="stylesheet" href="assets/css/slider.css?v=4">
 
     <title>Портфолио Алексей</title>
 </head>
@@ -48,12 +48,12 @@
         <h1>Добро пожаловать!</h1>
         <h3>Я Алексей</h3>
     </div>
-    
+
     <div id="who-i" class="container-md">
         <div class="who-i text-center fs-1">Биография</div>
-        <div style="padding: 16px;" class="b1-2 text-center fs-3 d-flex justify-content-center align-items-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sunt eligendi quidem voluptas, veritatis vero perspiciatis eaque quia cum adipisci officiis error laboriosam fuga, sequi, tempora optio libero consectetur incidunt!</div>
+        <div style="padding: 24px;" class="b1-2 text-center fs-3 d-flex justify-content-center align-items-center">Привет! Я Алексей - графический и веб-дизайнер. Мой подход  совмещать сильную визуальную идею с практической реализацией от эскиза на бумаге и векторной графики до живой вёрстки в коде. В проектах ценю продуманную работу с формой, выразительную колористику и внимание к микродеталям.</div>
     </div>
-    <div id="skill" class="b-2 container-md">   
+    <div id="skill" class="b-2 container-md">
         <h2 class="text-center fs-1" style="margin-bottom: 40px;">Мои навыки</h2>
     <div class="container ">
   <div class="row text-center gy-3">
@@ -88,29 +88,25 @@
         <h2>Мои проекты</h2>
         <div class="swiper b-3-slider">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" style="aspect-ratio: 16/9; background: linear-gradient(135deg, #059669, #10b981);">
-                    <span class="slide-badge">Проект 1</span>
-                    <span class="slide-title">Проект 1</span>
+                <div class="swiper-slide" style="aspect-ratio: 1/1; background: #ffffff;">
+                    <img src="assets/img/logo_priroda.png" alt="Логотип" style="object-fit: contain; padding: 28px;">
+                    <span class="slide-badge">Логотип</span>
                 </div>
-                <div class="swiper-slide" style="aspect-ratio: 9/16; background: linear-gradient(135deg, #2563eb, #60a5fa);">
-                    <span class="slide-badge">Проект 2</span>
-                    <span class="slide-title">Проект 2</span>
+                <div class="swiper-slide" style="aspect-ratio: 1/1.414;">
+                    <img src="assets/img/plakat2.png" alt="Плакат FIRE">
+                    <span class="slide-badge">FIRE</span>
                 </div>
-                <div class="swiper-slide" style="aspect-ratio: 1/1; background: linear-gradient(135deg, #7c3aed, #a78bfa);">
-                    <span class="slide-badge">Проект 3</span>
-                    <span class="slide-title">Проект 3</span>
+                <div class="swiper-slide" style="aspect-ratio: 1/1.414;">
+                    <img src="assets/img/plakat1.png" alt="Плакат WAVE">
+                    <span class="slide-badge">WAVE</span>
                 </div>
-                <div class="swiper-slide" style="aspect-ratio: 4/3; background: linear-gradient(135deg, #d97706, #fbbf24);">
-                    <span class="slide-badge">Проект 4</span>
-                    <span class="slide-title">Проект 4</span>
+                <div class="swiper-slide" style="aspect-ratio: 1/1.414;">
+                    <img src="assets/img/plakat3.png" alt="Плакат SNOW">
+                    <span class="slide-badge">SNOW</span>
                 </div>
-                <div class="swiper-slide" style="aspect-ratio: 16/9; background: linear-gradient(135deg, #0f172a, #334155);">
-                    <span class="slide-badge">Проект 5</span>
-                    <span class="slide-title">Проект 5</span>
-                </div>
-                <div class="swiper-slide" style="aspect-ratio: 9/16; background: linear-gradient(135deg, #db2777, #f472b6);">
-                    <span class="slide-badge">Проект 6</span>
-                    <span class="slide-title">Проект 6</span>
+                <div class="swiper-slide" style="aspect-ratio: 1/1.414;">
+                    <img src="assets/img/am_myam.png" alt="Иллюстрация Ам Ням">
+                    <span class="slide-badge">Иллюстрация</span>
                 </div>
             </div>
             <div class="swiper-button-prev"></div>
@@ -120,19 +116,26 @@
     </div>
     <script src="bootstrap-5.3.0-dist/js/bootstrap.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="assets/js/slider.js"></script>
-<div id="contacts" class="card text-center mt-5">
-  <div class="contacts fs-1 container-xxl">
+    <script src="assets/js/slider.js?v=3"></script>
+<div id="contacts" class="container-xxl text-center mt-5 mb-5">
+  <div class="contacts fs-1 p-2 mb-4">
     Контакты
   </div>
-  <div class="card-body container-xxl fs-3">
-    <div class="block-light"><h5 class="card-title fs-4">Почта</h5>
-    <p class="card-text ">alexeikuklev1@gmail.com</p></div>
-  </div>
-    <div class="card-body container-xxl fs-3">
-    <div class="block-light"><h5 class="card-title fs-4">Телеграм</h5>
-    <p class="card-text">Alexei8393</p></div>
+  <div class="row justify-content-center g-3">
+    <div class="col-12 col-md-5">
+      <button id="copy-email-btn" class="contact-btn w-100 p-3" type="button">
+        <h5 class="card-title fs-4 mb-2">Почта</h5>
+        <p id="email-text" class="card-text mb-0 fs-5">alexeikuklev1@gmail.com</p>
+      </button>
+    </div>
+    <div class="col-12 col-md-5">
+      <a href="https://t.me/Alexei8393" target="_blank" rel="noopener noreferrer" class="contact-btn w-100 p-3 d-block">
+        <h5 class="card-title fs-4 mb-2">Телеграм</h5>
+        <p class="card-text mb-0 fs-5">@Alexei8393</p>
+      </a>
+    </div>
   </div>
 </div>
+    <script src="assets/js/doodles.js?v=6"></script>
 </body>
 </html>
